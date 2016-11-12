@@ -3,6 +3,7 @@
 This is a subset of the scripts used in the experiments for [our BMVC'16 paper](http://www.vision.rwth-aachen.de/publication/00140/).
 The purpose of this code is mainly to illustrate the `PatchTask` procedure and get others started with it.
 
+If you use this code, please cite our paper:
 ```
 @InProceedings{Sudowe16BMVC,
     author = {Patrick Sudowe and Bastian Leibe},
@@ -11,7 +12,6 @@ The purpose of this code is mainly to illustrate the `PatchTask` procedure and g
 	year = {2016}
 }
 ```
-
 
 The experiments in [the paper](http://www.vision.rwth-aachen.de/publication/00140/) are based on the [Parse27k dataset](http://www.vision.rwth-aachen.de/parse27k).
 The `PatchTask` method allows researchers and developers to pretrain a network in a semi-supervised way.
