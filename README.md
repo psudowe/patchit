@@ -1,13 +1,21 @@
 # PatchIt Scripts
 
 This is a subset of the scripts used in the experiments for [our BMVC'16 paper](http://www.vision.rwth-aachen.de/publication/00140/).
-The purpose of this code is mainly to illustrate the procedure and get others started with the `PatchTask` pretraining procedure.
+The purpose of this code is mainly to illustrate the `PatchTask` procedure and get others started with it.
+
+```
+@InProceedings{Sudowe16BMVC,
+    author = {Patrick Sudowe and Bastian Leibe},
+	title  = {{PatchIt: Self-Supervised Network Weight Initialization for Fine-grained Recognition}},
+	booktitle = BMVC,
+	year = {2016}
+}
+```
+
 
 The experiments in [the paper](http://www.vision.rwth-aachen.de/publication/00140/) are based on the [Parse27k dataset](http://www.vision.rwth-aachen.de/parse27k).
 The `PatchTask` method allows researchers and developers to pretrain a network in a semi-supervised way.
-To this end, we also provide the unlabeled person detections from the full training video sequences on the [Parse27k dataset website](http://www.vision.rwth-aachen.de/parse27k).
-
-See [our paper](http://www.vision.rwth-aachen.de/publications/pdf/parse-acn-iccv2015) for details on the dataset itself.
+We also provide the unlabeled person detections from the full training video sequences on the [Parse27k dataset website](http://www.vision.rwth-aachen.de/parse27k).
 
 
 ##  Dependencies
