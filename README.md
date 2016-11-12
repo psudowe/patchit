@@ -34,6 +34,8 @@ Pillow
 scipy
 scikit-image
 matplotlib
+theano
+lasagne
 ```
 
 ##  Usage
